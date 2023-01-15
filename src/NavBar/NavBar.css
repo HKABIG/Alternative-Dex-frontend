@@ -1,21 +1,23 @@
+nav{
+  background: rgb(48,57,66);
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 50px;
+}
 .Title {
-  background: #f4f4f4;
   height: 50px;
   text-align: left;
-  margin-left: 25%;
   font-size: 1rem;
 }
 
 .NavbarItems {
-  background: #f4f4f4;
   height: 80px;
   display: flex;
   justify-content: left;
   align-items: left;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 75%;
   text-align: left;
-  margin-left: 25%;
 }
 
 .navbar-logo {
@@ -42,7 +44,7 @@
 }
 
 .nav-links {
-  color: rgb(73, 73, 73);
+  color: white;
   text-decoration: none;
 }
 
